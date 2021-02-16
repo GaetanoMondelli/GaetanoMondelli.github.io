@@ -1,5 +1,5 @@
 {
-  "homepage": "http://GaetanoMondelli.github.io/portfolio",
+  "homepage": "http://GaetanoMondelli.github.io/",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -9,11 +9,16 @@
     "@testing-library/user-event": "^12.1.10",
     "bootstrap": "^4.6.0",
     "bootswatch": "^4.6.0",
+    "jquery": "^3.5.1",
     "node-sass": "^4.14.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-google-slides": "^3.0.1",
     "react-pageflip": "^1.0.0",
+    "react-paper-css": "^0.0.4",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
+    "react-tooltip": "^4.2.13",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
