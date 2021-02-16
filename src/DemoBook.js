@@ -2,11 +2,11 @@ import React from "react";
 // import ReactDOM from "react-dom";
 import HTMLFlipBook from "react-pageflip";
 // import "./index.scss";
-import Image0 from "./images/0w.png"
-import Image1 from "./images/1.jpg"
-import Image2 from "./images/2.jpg"
-import Image3 from "./images/3.jpg"
-import wood from "./images/background.jpg"
+import Image0 from "./images/0w.png";
+import Image1 from "./images/1.jpg";
+import Image2 from "./images/2.jpg";
+import Image3 from "./images/3.jpg";
+import wood from "./images/background.jpg";
 import "./App.css"
 import "./app.scss";
 
@@ -86,17 +86,11 @@ const Page = React.forwardRef((props, ref) => {
               <div class="col-1"></div>
               <div class="col">
                 <blockquote class="blockquote">
-                  <p class="mb-3">
-                    This is me from my studio in a small town in the south of Italy. Not long ago!
-                  <br></br>
-                    <br></br>
                   &nbsp;&nbsp;I wanted to be a writer and tell stories, but I was not great with words.<br></br>
-                    <br></br>
                   &nbsp;&nbsp;One day a friend introduced me to <strong>computational thinking: </strong>
                   a clean way to untangle and expand thoughts.<br></br>
                   There followed many sleepless nights coding stories, and the next thing I knew was I wanted
                   to spend my life writing computational tales.
-                  </p>
                 </blockquote>
               </div>
               <div class="col-1"></div>
@@ -127,13 +121,8 @@ const Page = React.forwardRef((props, ref) => {
               <div class="col-1"></div>
               <div class="col">
                 <blockquote class="blockquote">
-                  <p class="mb-3">
                   During my years at uni, I had the opportunity to meet many exceptional people and had so much fun with <strong>'yet-to-succeed'</strong> projects.
                   The flying laurel wreath drone that followed me on my master's graduation day is my favorite one.  
-                   </p>
-                  &nbsp;University alone was not able to fill my aspirations and knowledge hungriness. 
-                  I am so grateful to <strong>online courses</strong>, summer schools, and books that taught me things like spanning from business strategy to modern agriculture techniques.
-                  &nbsp;I also learned about digital governance, contract law, and <strong>Blockchain</strong>, and I fell in love with them. 
                 </blockquote>
               </div>
               <div class="col-1"></div>
@@ -163,15 +152,10 @@ const Page = React.forwardRef((props, ref) => {
               <div class="col-1"></div>
               <div class="col">
                 <blockquote class="blockquote">
-                  <p class="mb-3">
-                  I moved to the UK, where I invented and patented Overledger, the core technology behind a Top-80 market cap blockchain. 
-Not entirely convinced on how blockchains companies were operating during the 2017 ICOs, I took part from a polluted blockchain ecosystem. 
-                   </p>
-
-                I decided to join Dyson a company that valued my creativity need and out-of-the-box thinking. 
-Today, I work for Amazon, helping to build the infrastructure for testing video apps on devices while 
-I spend my spare time working on Blockchain and the future of smart-contracts with law.  
-
+                I moved to the UK, where I invented and patented a top-80 blockchain project's core technology by market cap!
+                I then decided to step away from the blockchain environment to build a strong technical foundation in software engineering.
+                Today, I work for Amazon, helping to build the test infrastructure for streaming apps. <br></br>
+                I spend my spare time working on Blockchain and what I hope will be the future of law! 
                 </blockquote>
               </div>
               <div class="col-1"></div>
@@ -198,7 +182,7 @@ export default class DemoBlock extends React.Component {
 
     const pages = [<PageCover key={0} pos="top">
       <div>
-        About Scrapebook 
+        Gaetano Scrapebook 
       </div>
       <p class="blink_me">Click to open</p>
     </PageCover>];
@@ -255,8 +239,8 @@ export default class DemoBlock extends React.Component {
 
   render() {
     return (
-      <div>
-        <div className="container-md" style={{ paddingTop: "1%", backgroundImage: "url(" + wood + ")", position: "relative" }}>
+      <div style={{padding:'4%', overflow:"hidden"}}>
+        <div className="container-md" style={{ paddingTop: "1%", /*backgroundImage: "url(" + wood + ")",*/ position: "relative" }}>
           <HTMLFlipBook
             width={550}
             height={625}
