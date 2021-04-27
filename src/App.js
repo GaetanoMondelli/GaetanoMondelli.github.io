@@ -14,8 +14,6 @@ import clubhouse from './images/clubhouse.png'
 import over from './images/overl.png'
 
 
-
-
 class App extends React.Component {
 
   state = {
@@ -42,17 +40,32 @@ class App extends React.Component {
               </div>
               <div class="col-12 col-sm-6">
                 <h1>Gaetano Mondelli</h1>
-                <p class="lead"> Engineer | Teller of Computational tales | Lawtech & Blockchain enthusiast </p>
+                <p class="lead"> Engineer | Teller of Computational tales | Lawtech & Blockchain  since early days </p>
                 <hr />
-                <p>Hi, <br></br> I am a software engineer who started to tame computers since I was eight. <br></br>
-              I live and work in the London district of Shoreditch, where the high tech hub meets street-art
-              at its best. Ping me if you are around.<br></br>
-              &nbsp; When I am not at work, I spend my energy educating and building new projects in the blockchain space.
-              I spent many years studying and working on blockchain and I am a firm believer that blockchain is part of a more meaningful revolution that will alter the way people trust, collaborate, and coordinate
-              activities.
-              Today trust and collaboration are regulated through the law, and I believe the integration of law with blockchain tech is the key to unveiling an exponential growing future.
-              If it feels exciting, stay tuned on my blog and feel free to contact me!
+                <p>Hi, <br></br> I am a software engineer by day and a crypto-explorer by night.
+I live and work in the London district of Shoreditch, where the high-tech hub meets street art at its best.<br></br>
+              &nbsp;
+              When I am not at work, I am reading-studying or prototyping new ideas in the blockchain space. One of my ideas solved the interoperability problem in blockchain in some business contexts. It was featured on Forbes, New Scientist, and backed by Gartner's cool vendors list. An artcle on <a href="https://www.nasdaq.com/articles/what-i-learned-about-bitcoin-could-make-you-fortune-2018-03-06">Nasdaq</a> described the idea:
               <br></br>
+                  <br></br>
+
+                  <div class="">
+                    <div class="card border-primary mb-3">
+                      <div class="card-body">
+                        <p style={{ fontSize: "16px" }}>"[...] the patent for a new technology called "overledger," which is essentially an elegant method to allow the various cryptos to talk to each other --
+                        a common language that has the potential to knit them together and aggregate blockchain technology. Pay close attention to this .
+                        I'm not sure whether this new idea is the one that's going to take off, but it's a Steve Jobsian approach --
+              taking a very complicated technology and making it much easier to use. [...]"  </p>
+
+                      </div>
+                    </div>
+                  </div>
+                  <br></br>
+              More recently I turned my attention to applications of social interest.
+              I think technology like blockchain can reshape and boost trust with new ways for collaborating and coordinating activities.
+              I believe the integration of law and technology is the key to empower each of us with a more accessible, quick, fair and up with the times justice.
+              If it feels exciting, feel free to ping me!
+             <br></br>
                   <br></br>
                   <div class="col-md-8 offset-md-4">
                     <img data-tip="gaetano-mondelli" style={{ marginRight: "5%" }} width="15%" src={linkedin} onClick={() => {
@@ -86,15 +99,15 @@ class App extends React.Component {
                       </div>
                       <div>
                         <a rel="nofollow" href="https://www.goodreads.com/user/show/129708737-gaetano-mondelli">Gaetano</a> has
-                          read 6 books toward
+                          read 13 books toward
                           their goal of
                           35 books.
                     </div>
                       <div style={{ "width": "100px", "margin": "4px 5px 5px 0", "float": "left", "border": "1px solid #382110", "height": "8px", "overflow": "hidden", "backgroundColor": "#FFF\"" }}>
-                        <div style={{ "width": "5%", "backgroundColor": "#D7D2C4", "float": "left" }}><span style={{ visibility: "hidden" }}>hide</span></div>
+                        <div style={{ "width": "37%", "backgroundColor": "#D7D2C4", "float": "left" }}><span style={{ visibility: "hidden" }}>hide</span></div>
                       </div>
                       <div style={{ "fontFamily": "arial, verdana, helvetica, sans-serif", "fontSize": "90%" }}>
-                        <a rel="nofollow" href="https://www.goodreads.com/user_challenges/27760980">6 of 35 (17%)</a>
+                        <a rel="nofollow" href="https://www.goodreads.com/user_challenges/27760980">13 of 35 (37%)</a>
                       </div>
                       <div style={{ "textAlign": "right" }}>
                         <a style={{ "textDecoration": "none", "fontSize": "10px" }} rel="nofollow" href="https://www.goodreads.com/user_challenges/27760980">view books</a>
@@ -282,9 +295,9 @@ class App extends React.Component {
             }}>View Poster</button>
           </Route>
 
-          <Route exact path="/about" component>
+          {/* <Route exact path="/about" component>
             <DemoBook></DemoBook>
-          </Route>
+          </Route> */}
 
           <Route exact path="/articles" component>
             Coming Soon
@@ -485,7 +498,6 @@ class App extends React.Component {
           <p>Made with 🖤 in Shoreditch, London 2021</p>
         </footer>
       </div>
-
     </>
     );
   }
