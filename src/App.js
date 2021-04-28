@@ -45,7 +45,7 @@ class App extends React.Component {
                 <p>Hi, <br></br> I am a software engineer by day and a crypto-explorer by night.
 I live and work in the London district of Shoreditch, where the high-tech hub meets street art at its best.<br></br>
               &nbsp;
-              When I am not at work, I am reading-studying or prototyping new ideas in the blockchain space. One of my ideas solved the interoperability problem in blockchain in some business contexts. It was featured on Forbes, New Scientist, and backed by Gartner's cool vendors list. An artcle on <a href="https://www.nasdaq.com/articles/what-i-learned-about-bitcoin-could-make-you-fortune-2018-03-06">Nasdaq</a> described the idea:
+              When I am not at work, I am reading-studying or prototyping new ideas in the blockchain space. One of my ideas solved the blockchain interoperability problem for some business cases. It was featured on Forbes, New Scientist, and backed by Gartner's cool vendors list. An artcle on <a href="https://www.nasdaq.com/articles/what-i-learned-about-bitcoin-could-make-you-fortune-2018-03-06">Nasdaq</a> described the idea:
               <br></br>
                   <br></br>
 
