@@ -42,10 +42,9 @@ class App extends React.Component {
                 <h1>Gaetano Mondelli</h1>
                 <p class="lead"> Engineer | Teller of Computational tales | Lawtech & Blockchain  since early days </p>
                 <hr />
-                <p>Hi, <br></br> I am a software engineer by day and a crypto-explorer by night.
-I live and work in the London district of Shoreditch, where the high-tech hub meets street art at its best.<br></br>
+                <p>Hi, <br></br> I am a software engineer and a specialist in legal technology. When I'm not coding I spend time filling endless whiteboards with new ideas for crypto projects.
               &nbsp;
-              When I am not at work, I am reading-studying or prototyping new ideas in the blockchain space. One of my ideas solved the blockchain interoperability problem for some business cases. It was featured on Forbes, New Scientist, and backed by Gartner's cool vendors list. An artcle on <a href="https://www.nasdaq.com/articles/what-i-learned-about-bitcoin-could-make-you-fortune-2018-03-06">Nasdaq</a> described the idea:
+              One of my ideas solved the blockchain interoperability problem for some business cases. It was featured on Forbes, New Scientist, and included in serveal Gartner's lists. An artcle on <a href="https://www.nasdaq.com/articles/what-i-learned-about-bitcoin-could-make-you-fortune-2018-03-06">Nasdaq</a> described the idea as follows:
               <br></br>
                   <br></br>
 
@@ -61,10 +60,10 @@ I live and work in the London district of Shoreditch, where the high-tech hub me
                     </div>
                   </div>
                   <br></br>
-              More recently I turned my attention to applications of social interest.
-              I think technology like blockchain can reshape and boost trust with new ways for collaborating and coordinating activities.
-              I believe the integration of law and technology is the key to empower each of us with a more accessible, quick, fair and up with the times justice.
-              If it feels exciting, feel free to ping me!
+              Recently, my focus has shifted to social-interest applications.
+              I believe technology such as blockchain can transform and enhance trust by allowing for new ways to collaborate and coordinate activities.
+              The integration of law with technology is key to empower us all with more accessible, fast, fair, and up to the times justice.
+              If you feel it is exciting, feel free to ping or find me in Shoreditch, London!
              <br></br>
                   <br></br>
                   <div class="col-md-8 offset-md-4">
