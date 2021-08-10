@@ -43,6 +43,7 @@ class App extends React.Component {
                 <p class="lead"> Engineer | Teller of Computational tales | Lawtech & Blockchain  since early days </p>
                 <hr />
                 <p>Hi, <br></br> I am a software engineer and a specialist in legal technology. When I'm not coding I spend time filling endless whiteboards with new ideas for crypto projects.
+              <br></br>
               &nbsp;
               One of my ideas solved the blockchain interoperability problem for some business cases. It was featured on Forbes, New Scientist, and included in serveal Gartner's lists. An artcle on <a href="https://www.nasdaq.com/articles/what-i-learned-about-bitcoin-could-make-you-fortune-2018-03-06">Nasdaq</a> described the idea as follows:
               <br></br>
