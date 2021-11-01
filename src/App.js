@@ -99,15 +99,15 @@ class App extends React.Component {
                       </div>
                       <div>
                         <a rel="nofollow" href="https://www.goodreads.com/user/show/129708737-gaetano-mondelli">Gaetano</a> has
-                          read 19 books toward
+                          read 26 books toward
                           their goal of
                           35 books.
                     </div>
                       <div style={{ "width": "100px", "margin": "4px 5px 5px 0", "float": "left", "border": "1px solid #382110", "height": "8px", "overflow": "hidden", "backgroundColor": "#FFF\"" }}>
-                        <div style={{ "width": "37%", "backgroundColor": "#D7D2C4", "float": "left" }}><span style={{ visibility: "hidden" }}>hide</span></div>
+                        <div style={{ "width": "74%", "backgroundColor": "#D7D2C4", "float": "left" }}><span style={{ visibility: "hidden" }}>hide</span></div>
                       </div>
                       <div style={{ "fontFamily": "arial, verdana, helvetica, sans-serif", "fontSize": "90%" }}>
-                        <a rel="nofollow" href="https://www.goodreads.com/user_challenges/27760980">19 of 35 (54%)</a>
+                        <a rel="nofollow" href="https://www.goodreads.com/user_challenges/27760980">26 of 35 (74%)</a>
                       </div>
                       <div style={{ "textAlign": "right" }}>
                         <a style={{ "textDecoration": "none", "fontSize": "10px" }} rel="nofollow" href="https://www.goodreads.com/user_challenges/27760980">view books</a>
