@@ -21,6 +21,8 @@ class App extends React.Component {
     colWidth: window.innerWidth
   }
 
+  readBook2021 = 35;
+
   render() {
     return (<>
       <div class="container" >
@@ -42,30 +44,30 @@ class App extends React.Component {
                 <h1>Gaetano Mondelli</h1>
                 <p class="lead"> Engineer | Teller of Computational tales | Lawtech & Blockchain  since early days </p>
                 <hr />
-                <p>Hi, <br></br> I am a software engineer and a specialist in legal technology. When I'm not coding I spend time filling endless whiteboards with new ideas for crypto projects.
-              <br></br>
-              &nbsp;
-              One of my ideas solved the blockchain interoperability problem for some business cases. It was featured on Forbes, New Scientist, and included in serveal Gartner's lists. An artcle on <a href="https://www.nasdaq.com/articles/what-i-learned-about-bitcoin-could-make-you-fortune-2018-03-06">Nasdaq</a> described the idea as follows:
-              <br></br>
+                <p>Hi, <br></br> I am a software engineer and a specialist in legal technology. When not coding I spend time filling endless whiteboards with new ideas for crypto projects.
+                  <br></br>
+                  &nbsp;
+                  One of my ideas was a new solution for the blockchain interoperability problem. It was featured on Forbes, New Scientist, and included in serveal Gartner's lists. An artcle on <a href="https://www.nasdaq.com/articles/what-i-learned-about-bitcoin-could-make-you-fortune-2018-03-06">Nasdaq</a> described the idea as follows:
+                  <br></br>
                   <br></br>
 
                   <div class="">
                     <div class="card border-primary mb-3">
                       <div class="card-body">
                         <p style={{ fontSize: "16px" }}>"[...] the patent for a new technology called "overledger," which is essentially an elegant method to allow the various cryptos to talk to each other --
-                        a common language that has the potential to knit them together and aggregate blockchain technology. Pay close attention to this .
-                        I'm not sure whether this new idea is the one that's going to take off, but it's a Steve Jobsian approach --
-              taking a very complicated technology and making it much easier to use. [...]"  </p>
+                          a common language that has the potential to knit them together and aggregate blockchain technology. Pay close attention to this .
+                          I'm not sure whether this new idea is the one that's going to take off, but it's a Steve Jobsian approach --
+                          taking a very complicated technology and making it much easier to use. [...]"  </p>
 
                       </div>
                     </div>
                   </div>
                   <br></br>
-              Recently, my focus has shifted to social-interest applications.
-              I believe technology such as blockchain can transform and enhance trust by allowing for new ways to collaborate and coordinate activities.
-              The integration of law with technology is key to empower us all with more accessible, fast, fair, and up to the times justice.
-              If you feel it is exciting, feel free to ping or find me in Shoreditch, London!
-             <br></br>
+                  Recently, my focus has shifted to social-interest applications working in the legal tech sector.
+                  Technology such as blockchain can transform and enhance trust by allowing for new ways to collaborate and coordinate activities.
+                  The integration of law with technology is key to empower us all with more accessible, fast, fair, and up to the times justice.
+                  If you feel it is exciting, feel free to ping or find me in Shoreditch, London!
+                  <br></br>
                   <br></br>
                   <div class="col-md-8 offset-md-4">
                     <img data-tip="gaetano-mondelli" style={{ marginRight: "5%" }} width="15%" src={linkedin} onClick={() => {
@@ -88,8 +90,11 @@ class App extends React.Component {
 
                 </p>
               </div>
+
               <div class="row">
-                <div class="col-12">
+
+                <div class="readingChallengesContainer">
+
                   <div id="gr_challenge_11650" style={{ margin: "3%", marginLeft: "7%", "border": "2px solid #EBE8D5", "borderRadius": "10px", "padding": "0px 7px 0px 7px", "maxWidth": "230px", "minHeight": "100px" }}>
                     <div id="gr_challenge_progress_body_11650" style={{ "fontSize": "12px", "fontFamily": "georgia,serif", "lineHeight": "18px" }}>
                       <h3 style={{ margin: "4px 0 10px", fontWeight: "normal", textAlign: "center" }}>
@@ -99,15 +104,14 @@ class App extends React.Component {
                       </div>
                       <div>
                         <a rel="nofollow" href="https://www.goodreads.com/user/show/129708737-gaetano-mondelli">Gaetano</a> has
-                          read 26 books toward
-                          their goal of
-                          35 books.
-                    </div>
+                        read {this.readBook2021} books toward
+                        their goal of {this.readBook2021} books.
+                      </div>
                       <div style={{ "width": "100px", "margin": "4px 5px 5px 0", "float": "left", "border": "1px solid #382110", "height": "8px", "overflow": "hidden", "backgroundColor": "#FFF\"" }}>
-                        <div style={{ "width": "74%", "backgroundColor": "#D7D2C4", "float": "left" }}><span style={{ visibility: "hidden" }}>hide</span></div>
+                        <div style={{ "width": "100%", "backgroundColor": "#D7D2C4", "float": "left" }}><span style={{ visibility: "hidden" }}>hide</span></div>
                       </div>
                       <div style={{ "fontFamily": "arial, verdana, helvetica, sans-serif", "fontSize": "90%" }}>
-                        <a rel="nofollow" href="https://www.goodreads.com/user_challenges/27760980">26 of 35 (74%)</a>
+                        <a rel="nofollow" href="https://www.goodreads.com/user_challenges/27760980">{this.readBook2021} of {this.readBook2021} ({this.readBook2021 / this.readBook2021 * 100} %)</a>
                       </div>
                       <div style={{ "textAlign": "right" }}>
                         <a style={{ "textDecoration": "none", "fontSize": "10px" }} rel="nofollow" href="https://www.goodreads.com/user_challenges/27760980">view books</a>
@@ -115,6 +119,33 @@ class App extends React.Component {
                     </div>
                     <script src="https://www.goodreads.com/user_challenges/widget/129708737-gaetano-mondelli?challenge_id=11650&v=2"></script>
                   </div>
+
+                  <div id="gr_challenge_11636" style={{ margin: "3%", marginLeft: "7%", "border": "2px solid #EBE8D5", "borderRadius": "10px", "padding": "0px 7px 0px 7px", "maxWidth": "230px", "minHeight": "100px" }}>
+                    <div id="gr_challenge_progress_body_11636" style={{ "fontSize": "12px", "fontFamily": "georgia,serif", "lineHeight": "18px" }}>
+                      <h3 style={{ margin: "4px 0 10px", fontWeight: "normal", textAlign: "center" }}>
+                      </h3>
+                      <div class="challengePic">
+                        <a rel="nofollow" href="https://www.goodreads.com/challenges/11636-2022-reading-challenge"><img alt="2022 Reading Challenge" style={{ float: "left", marginRight: "10px", border: "0 none" }} src="https://images.gr-assets.com/challenges/1636444409p2/11636.jpg" /></a>
+                      </div>
+                      <div>
+                        <a rel="nofollow" href="https://www.goodreads.com/user/show/129708737-gaetano-mondelli">Gaetano</a> has
+                        read 1 book toward
+                        their goal of
+                        30 books.
+                      </div>
+                      <div style={{ width: "100px", margin: "4px 5px 5px 0", float: "left", border: "1px solid #382110", height: "8px", overflow: "hidden", backgroundColor: "#FFF" }}>
+                        <div style={{ width: "3%", backgroundColor: "#D7D2C4", float: "left" }}><span style={{ visibility: "hidden" }}>hide</span></div>
+                      </div>
+                      <div style={{ fontFamily: "arial, verdana, helvetica, sans-serif", fontSize: "90%" }}>
+                        <a rel="nofollow" href="https://www.goodreads.com/user_challenges/33122738">1 of 30 (3%)</a>
+                      </div>
+                      <div style={{ textAlign: 'right' }}>
+                        <a style={{ textDecoration: "none", fontSize: "10px" }} rel="nofollow" href="https://www.goodreads.com/user_challenges/33122738">view books</a>
+                      </div>
+                    </div>
+                    <script src="https://www.goodreads.com/user_challenges/widget/129708737-gaetano-mondelli?challenge_id=11636&v=2"></script>
+                  </div>
+
                 </div>
               </div>
 
@@ -200,12 +231,12 @@ class App extends React.Component {
             <br></br>
 
             <h2>OverLedger</h2>
-          I invented a protocol that enables blockchains communication and allows the creation of workflows over multiple blockchains.
-          The idea came from    working on a distributed event-driven application a couple of years ere. The application worked within an unreliable network, and it was not possible to sync continuously.
-          You can model blockchain as clients in an unreliable network where messages can get lost (transactions not included in a valid block) or even changed for a variable period (forks happening in blockchains).
-          Ok, stop with the technicalities.
-          The idea was patented, and the token backing the project is <span style={{ textDecoration: "underline", color: "blue" }} data-tip="feb-2021">now</span> worth almost half a billion.
-          <ReactTooltip />
+            I invented a protocol that enables blockchains communication and allows the creation of workflows over multiple blockchains.
+            The idea came from    working on a distributed event-driven application a couple of years ere. The application worked within an unreliable network, and it was not possible to sync continuously.
+            You can model blockchain as clients in an unreliable network where messages can get lost (transactions not included in a valid block) or even changed for a variable period (forks happening in blockchains).
+            Ok, stop with the technicalities.
+            The idea was patented, and the token backing the project is <span style={{ textDecoration: "underline", color: "blue" }} data-tip="feb-2021">now</span> worth almost half a billion.
+            <ReactTooltip />
             <br></br>
             <br></br>
             <img width="45%" src={over}></img>
@@ -233,7 +264,7 @@ class App extends React.Component {
             My code contribution was mainly the integration between the parser that produced data from the web pages and the application that consumed it.
             We had a meeting with the university that was impressed by the work. Later we understood they were developing their own app that happened to have similar design choices and an awful app icon.
             My best memory of this project is the Harry Potter theme for April's fool. Only for one day, we replaced all uni references, courses, news, and the schedule to Hogwarts. Students seemed to like it; they shared over social media, and we had more downloads in a day than in a month.
-          <div>
+            <div>
               <br></br>
               <img width="50%" src={app}></img>
               <br></br>
@@ -254,11 +285,11 @@ class App extends React.Component {
             </div>
             <hr></hr>
             <h2>Splunk your data </h2>
-          Since I was a kid, I have been using computers and collected tons of data. I had stored more than 20 years of data in various supports and decided to bring them together.  Data were timestamped files, emails, messages, bank transactions, videogames data, and smart device data.
-          A file system is not the best option to navigate these data.
-          I indexed data and added it to Splunk. Based on this project, I made a fun presentation on how I used this historical data.<br></br>
-          I then expanded the project and created a browser-like application for exploring data and memories with the help of filters and graphs.
-          <br></br>
+            Since I was a kid, I have been using computers and collected tons of data. I had stored more than 20 years of data in various supports and decided to bring them together.  Data were timestamped files, emails, messages, bank transactions, videogames data, and smart device data.
+            A file system is not the best option to navigate these data.
+            I indexed data and added it to Splunk. Based on this project, I made a fun presentation on how I used this historical data.<br></br>
+            I then expanded the project and created a browser-like application for exploring data and memories with the help of filters and graphs.
+            <br></br>
             <br></br>
             <div>
 
@@ -281,10 +312,10 @@ class App extends React.Component {
             }}>View Descritption</button>
             <hr></hr>
             <h2>Smart Intercom</h2>
-          DoorOnPhone is a smart intercom with remote control, video streaming, virtual keys, face recognition. Code-wise I implemented the face-recognition feature in Python (back then, there was only material in C, C++) and worked on the physical design with a super-skilled designer.
-          The idea came after watching Steve Jobs's iconic presentation of the iPhone. I was amazed at how he turned a blunt object into magic using technology and design. I look around the room, and the closest thing to a phone I saw was an old intercom. That was boring enough to be reinvented!
-          Some years later, with some classmates, we went through the entire design until the realization of a working prototype presented at the business incubator I3P in Turin (Italy)
-          <br></br><br></br>
+            DoorOnPhone is a smart intercom with remote control, video streaming, virtual keys, face recognition. Code-wise I implemented the face-recognition feature in Python (back then, there was only material in C, C++) and worked on the physical design with a super-skilled designer.
+            The idea came after watching Steve Jobs's iconic presentation of the iPhone. I was amazed at how he turned a blunt object into magic using technology and design. I look around the room, and the closest thing to a phone I saw was an old intercom. That was boring enough to be reinvented!
+            Some years later, with some classmates, we went through the entire design until the realization of a working prototype presented at the business incubator I3P in Turin (Italy)
+            <br></br><br></br>
             <img width="40%" src={intercom}></img>
             <br></br><br></br>
             <button type="button" class="btn btn-primary" onClick={() => {
@@ -301,7 +332,7 @@ class App extends React.Component {
 
           <Route exact path="/articles" component>
             Coming Soon
-        </Route>
+          </Route>
 
           <Route exact path="/cert" component>
 
