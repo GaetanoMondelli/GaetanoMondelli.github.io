@@ -10,7 +10,7 @@
     "bootstrap": "^4.6.0",
     "bootswatch": "^4.6.0",
     "jquery": "^3.5.1",
-    "node-sass": "^4.14.1",
+    "sass": "^1.50.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-google-slides": "^3.0.1",
@@ -49,5 +49,8 @@
   },
   "devDependencies": {
     "gh-pages": "^3.1.0"
+  },
+  "resolutions": {
+    "postcss": "^8.4.31"
   }
 }

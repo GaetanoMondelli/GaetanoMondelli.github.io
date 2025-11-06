@@ -453,7 +453,7 @@ class App extends React.Component {
                     <h2>Your Crypto Dollars Are Just IOUs (And the Feds Just Admitted It)</h2>
 
                     <div style={{ textAlign: "center", margin: "20px 0" }}>
-                      <img src={article1} style={{ maxWidth: "100%", height: "auto", borderRadius: "8px" }} alt="Stablecoins and GENIUS Act" />
+                      <img src={article1} style={{ maxWidth: "50%", height: "auto", borderRadius: "8px" }} alt="Stablecoins and GENIUS Act" />
                     </div>
 
                     <p>Last month, the U.S. signed the GENIUS Act into law, the first major federal regulation of stablecoins. The crypto industry celebrated it as "regulatory clarity." Banks called it "a framework for innovation." Nobody mentioned the quiet part out loud: Washington just confirmed that stablecoins aren't money. They're debt.</p>
@@ -478,6 +478,7 @@ class App extends React.Component {
 
                   <p style={{ fontStyle: "italic" }}>The revolution wasn't escaping the old system. It was rebuilding it with better APIs.</p>
 
+                  </div>
                 </div>
               </div>
             </div>
