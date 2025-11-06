@@ -29,11 +29,6 @@ class App extends React.Component {
         <Navbar></Navbar>
         <br></br>
         <br></br>
-        <div style={this.state.hideWarning ? { display: "none" } : { display: "block" }} class="alert alert-dismissible alert-warning">
-          <button onClick={() => this.setState({ hideWarning: true })} type="button" class="close" data-dismiss="alert">&times;</button>
-          <h4 class="alert-heading">Warning!</h4>
-          {/* <p class="mb-0"> This space is Working in Progress. Better connect with me on  <a href="https://www.linkedin.com/in/gaetano-mondelli/" class="alert-link"> Linkedin</a>. Many Thanks!</p> */}
-        </div>
         <Switch>
           <Route exact path="/">
             <div class="row">
@@ -42,30 +37,48 @@ class App extends React.Component {
               </div>
               <div class="col-12 col-sm-6">
                 <h1>Gaetano Mondelli</h1>
-                <p class="lead">Blockchain Protocol Engineer | Tokenization Pioneer | Chain Abstraction Architect</p>
+                <p class="lead">Blockchain Protocol Engineer | Tokenization Specialist</p>
                 <hr />
-                <p>Hi, <br></br> I'm a blockchain protocol engineer specializing in tokenization and chain abstraction. I invented Overledger, the first protocol for blockchain interoperability and tokenization, which became a foundational technology in the space.
+                <p>Hi, <br></br> I'm a blockchain protocol engineer currently focused on <strong>tokenization across multiple asset classes</strong>.
                   <br></br>
-                  &nbsp;
-                  My work spans the entire tokenization landscape: from carbon credits (Rowan Energy) to decentralized identity (AIKON, working with W. Scott Stornetta - co-inventor of blockchain), NFT marketplaces and ticketing systems (DaChain), and stablecoin-based legal contracts (Rocket Lawyer). Featured on Forbes, New Scientist, and Gartner's lists, an article on <a href="https://www.nasdaq.com/articles/what-i-learned-about-bitcoin-could-make-you-fortune-2018-03-06">Nasdaq</a> described Overledger as:
                   <br></br>
+
+                  <div class="card border-success mb-3" style={{ backgroundColor: "#f0f9ff" }}>
+                    <div class="card-body">
+                      <h5 class="card-title" style={{ color: "#059669" }}>🔥 Currently Working On</h5>
+                      <ul style={{ marginBottom: "0", paddingLeft: "20px" }}>
+                        <li><strong>Carbon Credit Tokenization</strong> - Designing MRV-driven systems for verified renewable energy (Rowan Energy)</li>
+                        <li><strong>Zero-Knowledge Proofs</strong> - Privacy-preserving architectures for public chain auditability</li>
+                        <li><strong>Cross-Chain Infrastructure</strong> - Building on my Overledger patent for multi-chain tokenization</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <br></br>
+
+                  <strong>My Tokenization Journey:</strong>
+                  <br></br>
+                  I invented <strong>Overledger</strong>, the first protocol for blockchain interoperability, which became foundational for chain abstraction and cross-chain tokenization. The patent-backed project reached a $5B market cap and ranks among the top crypto projects.
+                  <br></br><br></br>
+
+                  Since then, I've worked across the entire tokenization landscape:
+                  <ul style={{ marginLeft: "20px" }}>
+                    <li><strong>Carbon Credits</strong> - TPM-signed IoT device data tokenization (Rowan Energy)</li>
+                    <li><strong>Digital Identity</strong> - Self-sovereign identity with W. Scott Stornetta, co-inventor of blockchain (AIKON)</li>
+                    <li><strong>NFTs & Ticketing</strong> - Multi-chain marketplace and stadium experiences (DaChain)</li>
+                    <li><strong>Stablecoins</strong> - Legal contract automation with Circle/Stripe integration (Rocket Lawyer)</li>
+                  </ul>
                   <br></br>
 
                   <div class="">
                     <div class="card border-primary mb-3">
                       <div class="card-body">
-                        <p style={{ fontSize: "16px" }}>"[...] the patent for a new technology called "overledger," which is essentially an elegant method to allow the various cryptos to talk to each other --
-                          a common language that has the potential to knit them together and aggregate blockchain technology. Pay close attention to this.
-                          I'm not sure whether this new idea is the one that's going to take off, but it's a Steve Jobsian approach --
-                          taking a very complicated technology and making it much easier to use. [...]"  </p>
-
+                        <p style={{ fontSize: "14px", fontStyle: "italic", marginBottom: "0" }}><strong>Nasdaq</strong> on Overledger: "[...] an elegant method to allow cryptos to talk to each other -- a common language that has the potential to knit them together. A Steve Jobsian approach - taking complicated technology and making it much easier to use."</p>
                       </div>
                     </div>
                   </div>
                   <br></br>
-                  I'm a 10x hackathon winner (Chainlink, Polygon, Ethereum Foundation, ImmutableX, Encode, Ripple) and recently won the Chainlink Constellation Hackathon 2023 (interoperability track) with XTF, reimagining ETFs for Web3. I completed Encode's ZK Bootcamp in 2024, diving deep into zero-knowledge proofs and privacy-preserving blockchain architectures.
-                  <br></br>
-                  Currently focused on designing MRV-driven tokenization systems for carbon credits and exploring zk-proof concepts for public chain auditability.
+
+                  <strong>Recent Achievements:</strong> 10x hackathon winner including Chainlink 2023 (XTF - Web3 ETF), Ethereum Foundation (ZK anti-collusion voting), Polygon 2020 (NFT composability). Completed Encode's ZK Bootcamp 2024.
                   <br></br>
                   <br></br>
                   <div class="col-md-8 offset-md-4">
@@ -81,7 +94,6 @@ class App extends React.Component {
                         '_blank'
                       );
                     }}></img>
-                    <img data-tip="clubhouse: @gaetanomondelli" style={{ marginRight: "5%" }} width="17%" src={clubhouse}></img>
                     <ReactTooltip />
 
                   </div>
