@@ -32,7 +32,7 @@ class App extends React.Component {
         <div style={this.state.hideWarning ? { display: "none" } : { display: "block" }} class="alert alert-dismissible alert-warning">
           <button onClick={() => this.setState({ hideWarning: true })} type="button" class="close" data-dismiss="alert">&times;</button>
           <h4 class="alert-heading">Warning!</h4>
-          <p class="mb-0"> This space is Working in Progress. Better connect with me on  <a href="https://www.linkedin.com/in/gaetano-mondelli/" class="alert-link"> Linkedin</a>. Many Thanks!</p>
+          {/* <p class="mb-0"> This space is Working in Progress. Better connect with me on  <a href="https://www.linkedin.com/in/gaetano-mondelli/" class="alert-link"> Linkedin</a>. Many Thanks!</p> */}
         </div>
         <Switch>
           <Route exact path="/">
