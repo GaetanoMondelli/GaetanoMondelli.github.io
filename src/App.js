@@ -436,7 +436,105 @@ class App extends React.Component {
           </Route> */}
 
           <Route exact path="/articles" component>
-            Coming Soon
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <h1>Your Crypto Dollars Are Just IOUs (And the Feds Just Admitted It)</h1>
+                  <p class="text-muted">A reflection on stablecoins, the GENIUS Act, and the circular nature of monetary systems</p>
+                  <hr />
+                  <br />
+
+                  <p>
+                    Last month, the U.S. signed the GENIUS Act into law, the first major federal regulation of stablecoins. The crypto industry celebrated it as "regulatory clarity." Banks called it "a framework for innovation."
+                  </p>
+                  <p>
+                    Nobody mentioned the quiet part out loud: <strong>Washington just confirmed that stablecoins aren't money. They're debt.</strong>
+                  </p>
+
+                  <br />
+                  <h3>The Backwards Story</h3>
+                  <p>
+                    The standard narrative goes like this: cryptocurrency was too volatile for everyday use, so the industry invented stablecoins. Digital dollars that move at the speed of the internet. Finally, real money on the blockchain. Cash, but better. It's a tidy story. It's also backwards.
+                  </p>
+                  <p>
+                    Here's what happens when you hold a stablecoin: the issuer owes you one dollar. That dollar sits in their reserves, theoretically. Your token is a claim on those reserves. The blockchain just tracks who owns which IOU. Sound familiar? It should. Because this is exactly how money worked for most of human history.
+                  </p>
+
+                  <br />
+                  <h3>Money as Debt: An Ancient Innovation</h3>
+                  <p>
+                    Anthropologist David Graeber spent years studying ancient economies and came away with a radical finding: <strong>money didn't evolve from barter. It evolved from debt.</strong> The first "money" wasn't coins. It was clay tablets tracking who owed grain to the temple. The earliest monetary systems were just ledgers. Records of obligations between people and institutions.
+                  </p>
+                  <p>
+                    A Mesopotamian farmer with a tablet saying "the temple owes you 50 bushels" had basically the same thing you have when you hold a stablecoin: a credible IOU from a powerful institution. The only difference is the temple priest couldn't rug pull and flee to the Bahamas.
+                  </p>
+
+                  <br />
+                  <h3>What the GENIUS Act Actually Does</h3>
+                  <p>
+                    Strip away the legislative jargon and here's what the new law does. Stablecoins are now officially "payment stablecoins." Not currency, not securities, but a new category entirely. Key provisions include:
+                  </p>
+                  <ul>
+                    <li>Issuers must hold 100% reserves in cash or Treasuries, with monthly public audits</li>
+                    <li>Federal licensing required through banking regulators</li>
+                    <li><strong>Issuers must be able to freeze, seize, or burn tokens "when legally required"</strong></li>
+                  </ul>
+                  <p>
+                    Read that last one again. If stablecoins are "digital cash," why can the issuer delete them? Because they're not cash. They're liabilities on a company's balance sheet that require a federal license to issue. The Act doesn't treat stablecoins like money. It treats them like what they actually are: <strong>private debt instruments that need the same supervision as banks.</strong>
+                  </p>
+
+                  <br />
+                  <h3>Regulation Creates Moats</h3>
+                  <p>
+                    You might think issuers would hate this regulation. They don't. Many lobbied for it. Why? Because the GENIUS Act doesn't just regulate stablecoins. It licenses them. And licenses create moats.
+                  </p>
+                  <p>
+                    The Act sets the bar high enough that fly-by-night issuers die, questionable operators face a reckoning, and a handful of big players get a government-blessed oligopoly. It's the same playbook banks used in the 19th century: get yourself regulated, then use compliance costs as a weapon against competition.
+                  </p>
+
+                  <br />
+                  <h3>Full Circle</h3>
+                  <p>
+                    Crypto's founding mythology was about escaping institutional control. The technology promised self-custody and trustless systems. Code as law. Financial sovereignty. And yet the most successful crypto product is institutionalized debt that requires government licensing.
+                  </p>
+                  <p>
+                    We've come full circle. Literally. Back to temples tracking obligations. Back to powerful intermediaries you have to trust. Back to ledgers that record who owes what to whom. The only thing that's changed is the database is now distributed and the priests wear Patagonia vests.
+                  </p>
+
+                  <br />
+                  <h3>What Was the Revolution For?</h3>
+                  <p>
+                    This isn't an argument against stablecoins. They're useful. Moving value across borders in seconds is genuinely valuable. But we should stop calling them "digital cash" when they're really "programmable bank deposits."
+                  </p>
+                  <p>
+                    The GENIUS Act makes this explicit: stablecoins are credit instruments issued by regulated institutions. They're not currency. They're not even trying to be.
+                  </p>
+                  <p>
+                    Which raises an uncomfortable question for true believers: <strong>If the killer app requires recreating the traditional financial system on a blockchain, what exactly was the revolution for?</strong>
+                  </p>
+
+                  <br />
+                  <div class="card border-primary mb-3" style={{ backgroundColor: "#f8f9fa" }}>
+                    <div class="card-body">
+                      <h5 class="card-title">5,000 Years Later, Same Story</h5>
+                      <p style={{ marginBottom: "0" }}>
+                        Five thousand years ago, Mesopotamian temples issued clay tablets representing debt obligations backed by grain reserves and state authority. Today, companies issue blockchain tokens representing debt obligations backed by Treasury reserves and federal licensing.
+                      </p>
+                      <br />
+                      <p style={{ marginBottom: "0" }}>
+                        The U.S. government just spent 18 months and countless legislative hours to arrive at a conclusion that any economic anthropologist could have told you in five minutes: <strong>money was always debt. Stablecoins are just making it obvious again.</strong>
+                      </p>
+                    </div>
+                  </div>
+
+                  <br />
+                  <p style={{ fontStyle: "italic", color: "#6c757d" }}>
+                    The revolution wasn't escaping the old system. It was rebuilding it with better APIs.
+                  </p>
+
+                </div>
+              </div>
+            </div>
           </Route>
 
           <Route exact path="/cert" component>
