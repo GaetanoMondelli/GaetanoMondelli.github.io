@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.8202a1d6.chunk.css",
-    "main.js": "/static/js/main.7408e1b1.chunk.js",
-    "main.js.map": "/static/js/main.7408e1b1.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.057f0ec8.js",
-    "runtime-main.js.map": "/static/js/runtime-main.057f0ec8.js.map",
-    "static/css/2.322a0a32.chunk.css": "/static/css/2.322a0a32.chunk.css",
-    "static/js/2.8d6eacc1.chunk.js": "/static/js/2.8d6eacc1.chunk.js",
-    "static/js/2.8d6eacc1.chunk.js.map": "/static/js/2.8d6eacc1.chunk.js.map",
-    "static/js/3.3df9e824.chunk.js": "/static/js/3.3df9e824.chunk.js",
-    "static/js/3.3df9e824.chunk.js.map": "/static/js/3.3df9e824.chunk.js.map",
+    "main.css": "/static/css/main.32c9e90a.chunk.css",
+    "main.js": "/static/js/main.762f63c7.chunk.js",
+    "main.js.map": "/static/js/main.762f63c7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c20a6ed8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c20a6ed8.js.map",
+    "static/css/2.93eede99.chunk.css": "/static/css/2.93eede99.chunk.css",
+    "static/js/2.603c552f.chunk.js": "/static/js/2.603c552f.chunk.js",
+    "static/js/2.603c552f.chunk.js.map": "/static/js/2.603c552f.chunk.js.map",
+    "static/js/3.2472c6e1.chunk.js": "/static/js/3.2472c6e1.chunk.js",
+    "static/js/3.2472c6e1.chunk.js.map": "/static/js/3.2472c6e1.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.322a0a32.chunk.css.map": "/static/css/2.322a0a32.chunk.css.map",
-    "static/css/main.8202a1d6.chunk.css.map": "/static/css/main.8202a1d6.chunk.css.map",
-    "static/js/2.8d6eacc1.chunk.js.LICENSE.txt": "/static/js/2.8d6eacc1.chunk.js.LICENSE.txt",
+    "static/css/2.93eede99.chunk.css.map": "/static/css/2.93eede99.chunk.css.map",
+    "static/css/main.32c9e90a.chunk.css.map": "/static/css/main.32c9e90a.chunk.css.map",
+    "static/js/2.603c552f.chunk.js.LICENSE.txt": "/static/js/2.603c552f.chunk.js.LICENSE.txt",
     "static/media/0w.e681701c.png": "/static/media/0w.e681701c.png",
     "static/media/1.57bc5f87.jpg": "/static/media/1.57bc5f87.jpg",
     "static/media/2.38fa3ee4.jpg": "/static/media/2.38fa3ee4.jpg",
     "static/media/3.009bfac5.jpg": "/static/media/3.009bfac5.jpg",
+    "static/media/article1.2f4d68eb.png": "/static/media/article1.2f4d68eb.png",
     "static/media/background.6796419f.jpg": "/static/media/background.6796419f.jpg",
     "static/media/clubhouse.4b73ebd5.png": "/static/media/clubhouse.4b73ebd5.png",
     "static/media/gman2.f52db750.png": "/static/media/gman2.f52db750.png",
@@ -25,10 +26,10 @@
     "static/media/poliapp.396c19e2.png": "/static/media/poliapp.396c19e2.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.057f0ec8.js",
-    "static/css/2.322a0a32.chunk.css",
-    "static/js/2.8d6eacc1.chunk.js",
-    "static/css/main.8202a1d6.chunk.css",
-    "static/js/main.7408e1b1.chunk.js"
+    "static/js/runtime-main.c20a6ed8.js",
+    "static/css/2.93eede99.chunk.css",
+    "static/js/2.603c552f.chunk.js",
+    "static/css/main.32c9e90a.chunk.css",
+    "static/js/main.762f63c7.chunk.js"
   ]
 }
