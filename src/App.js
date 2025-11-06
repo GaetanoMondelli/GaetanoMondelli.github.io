@@ -47,9 +47,9 @@ class App extends React.Component {
                     <div class="card-body">
                       <h5 class="card-title" style={{ color: "#059669" }}>🔥 Currently Working On</h5>
                       <ul style={{ marginBottom: "0", paddingLeft: "20px" }}>
-                        <li><strong>Carbon Credit Tokenization</strong> - Designing MRV-driven systems for verified renewable energy (Rowan Energy)</li>
-                        <li><strong>Zero-Knowledge Proofs</strong> - Privacy-preserving architectures for public chain auditability</li>
-                        <li><strong>Cross-Chain Infrastructure</strong> - Building on my Overledger patent for multi-chain tokenization</li>
+                        <li><strong>Stochastic Process Tokenization Patent (2023)</strong> - Developing novel tokenization methods for stochastic processes</li>
+                        <li><strong>Zero-Knowledge Proofs</strong> - Privacy-preserving architectures for public chain auditability and recognition</li>
+                        <li><strong>Beyond Blockchain</strong> - Exploring tokenization applications in various industries</li>
                       </ul>
                     </div>
                   </div>
@@ -62,9 +62,10 @@ class App extends React.Component {
 
                   Since then, I've worked across the entire tokenization landscape:
                   <ul style={{ marginLeft: "20px" }}>
-                    <li><strong>Carbon Credits</strong> - TPM-signed IoT device data tokenization (Rowan Energy)</li>
-                    <li><strong>Digital Identity</strong> - Self-sovereign identity with W. Scott Stornetta, co-inventor of blockchain (AIKON)</li>
-                    <li><strong>NFTs & Ticketing</strong> - Multi-chain marketplace and stadium experiences (DaChain)</li>
+                    <li><strong>Carbon Credits</strong> - From TPM-signed device RWA data to carbon accounting and credit tokenization (Rowan Energy / Sertis / Brightis)</li>
+                    <li><strong>Digital Identity</strong> - Self-sovereign identity with W. Scott Stornetta, co-inventor of Blockchain (AIKON)</li>
+                    <li><strong>Experiences</strong> - Multi-chain marketplace and entertainment experiences (DaChain)</li>
+                    <li><strong>Legal Contracts</strong> - Legal contracts automations and escrows</li>
                     <li><strong>Stablecoins</strong> - Legal contract automation with Circle/Stripe integration (Rocket Lawyer)</li>
                   </ul>
                   <br></br>
@@ -140,15 +141,15 @@ class App extends React.Component {
                       </div>
                       <div>
                         <a rel="nofollow" href="https://www.goodreads.com/user/show/129708737-gaetano-mondelli">Gaetano</a> has
-                        read 1 book toward
+                        read 30 book toward
                         their goal of
                         30 books.
                       </div>
                       <div style={{ width: "100px", margin: "4px 5px 5px 0", float: "left", border: "1px solid #382110", height: "8px", overflow: "hidden", backgroundColor: "#FFF" }}>
-                        <div style={{ width: "3%", backgroundColor: "#D7D2C4", float: "left" }}><span style={{ visibility: "hidden" }}>hide</span></div>
+                        <div style={{ width: "100%", backgroundColor: "#D7D2C4", float: "left" }}><span style={{ visibility: "hidden" }}>hide</span></div>
                       </div>
                       <div style={{ fontFamily: "arial, verdana, helvetica, sans-serif", fontSize: "90%" }}>
-                        <a rel="nofollow" href="https://www.goodreads.com/user_challenges/33122738">1 of 30 (3%)</a>
+                        <a rel="nofollow" href="https://www.goodreads.com/user_challenges/33122738">30 of 30 (100%)</a>
                       </div>
                       <div style={{ textAlign: 'right' }}>
                         <a style={{ textDecoration: "none", fontSize: "10px" }} rel="nofollow" href="https://www.goodreads.com/user_challenges/33122738">view books</a>
