@@ -440,14 +440,23 @@ class App extends React.Component {
             <div class="container">
               <div class="row">
                 <div class="col-12">
-                  <h1>Your Crypto Dollars Are Just IOUs (And the Feds Just Admitted It)</h1>
+                  <h1>Articles</h1>
+                  <p class="lead">Thoughts on tokenization, blockchain, and the future of digital assets</p>
                   <hr />
+                </div>
+              </div>
 
-                  <div style={{ textAlign: "center", margin: "20px 0" }}>
-                    <img src={article1} style={{ maxWidth: "100%", height: "auto", borderRadius: "8px" }} alt="Stablecoins and GENIUS Act" />
-                  </div>
+              <div class="row">
+                <div class="col-12">
+                  <div style={{ marginBottom: "60px" }}>
+                    <p class="text-muted">January 2025</p>
+                    <h2>Your Crypto Dollars Are Just IOUs (And the Feds Just Admitted It)</h2>
 
-                  <p>Last month, the U.S. signed the GENIUS Act into law, the first major federal regulation of stablecoins. The crypto industry celebrated it as "regulatory clarity." Banks called it "a framework for innovation." Nobody mentioned the quiet part out loud: Washington just confirmed that stablecoins aren't money. They're debt.</p>
+                    <div style={{ textAlign: "center", margin: "20px 0" }}>
+                      <img src={article1} style={{ maxWidth: "100%", height: "auto", borderRadius: "8px" }} alt="Stablecoins and GENIUS Act" />
+                    </div>
+
+                    <p>Last month, the U.S. signed the GENIUS Act into law, the first major federal regulation of stablecoins. The crypto industry celebrated it as "regulatory clarity." Banks called it "a framework for innovation." Nobody mentioned the quiet part out loud: Washington just confirmed that stablecoins aren't money. They're debt.</p>
 
                   <p>The standard narrative goes like this: cryptocurrency was too volatile for everyday use, so the industry invented stablecoins. Digital dollars that move at the speed of the internet. Finally, real money on the blockchain. Cash, but better. It's a tidy story. It's also backwards.</p>
 
