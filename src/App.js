@@ -80,7 +80,9 @@ class App extends React.Component {
                   </div>
                   <br></br>
 
-                  <strong>Recent Achievements:</strong> 10x hackathon winner including Chainlink 2023 (XTF - Web3 ETF), Ethereum Foundation (ZK anti-collusion voting), Polygon 2020 (NFT composability). Completed Encode's ZK Bootcamp 2024.
+                  <a href="https://www.xtflabs.com">
+                    <strong>Recent Achievements:</strong> 10x hackathon winner including Chainlink 2023 (XTF - Web3 ETF), Ethereum Foundation (ZK anti-collusion voting), Polygon 2020 (NFT composability). Completed Encode's ZK Bootcamp 2024.
+                  </a>
                   <br></br>
                   <br></br>
                   <div class="col-md-8 offset-md-4">
@@ -216,13 +218,13 @@ class App extends React.Component {
               </div>
               <div class="col-12 col-sm-4">
                 <div class="card border-primary mb-3" style={{ maxWidth: "20rem" }}>
-                  <div class="card-header">XTF - Chainlink Winner 2023</div>
+                  <div class="card-header">XTF - Multiple Hackathon Winner 2023</div>
                   <div class="card-body">
                     <h4 class="card-title">Web3 ETF Reimagined</h4>
                     <p class="card-text text">Won Chainlink Constellation 2023 (interoperability track). Multichain decentralized protocol for ETF-like solutions supporting NFTs, RWAs, and diverse asset types. Utilizes secure price oracles and interoperability for transparent, diversified investment strategies.</p>
                     <button type="button" class="btn btn-primary" onClick={() => {
                       window.open(
-                        'https://github.com/GaetanoMondelli/XRPLEDGER-XTF',
+                        'https://xtflabs.com',
                         '_blank'
                       );
                     }}>View Project</button>
