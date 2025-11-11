@@ -488,64 +488,120 @@ class App extends React.Component {
               <div class="row">
                 <div class="col-12">
                   <h1>Awards & Hackathon Wins</h1>
-                  <p class="lead">10x first place winner across major blockchain hackathons</p>
+                  <p class="lead">10+ blockchain hackathon wins with $24,500+ in prizes</p>
                   <hr />
                 </div>
               </div>
 
               <div class="row">
                 <div class="col-12">
-                  <div class="card border-primary mb-4">
+
+                  <div class="card border-primary mb-3">
                     <div class="card-body">
-                      <h4 class="card-title">🏆 XTF Protocol - Decentralized ETF System</h4>
-                      <p class="card-text"><strong>1st Place</strong> - Multiple Hackathons (Chainlink Constellation 2023, Ripple, Tezos)</p>
-                      <p class="card-text">Multichain decentralized protocol for ETF-like solutions supporting NFTs, RWAs, and diverse asset types. Won the Chainlink interoperability track with innovative cross-chain architecture.</p>
-                      <a href="https://www.xtflabs.com" target="_blank" class="btn btn-primary">Visit XTF Labs</a>
+                      <h4 class="card-title">🏆 Chainlink Constellation 2023 - XTF Protocol</h4>
+                      <p class="card-text"><strong>1st Place Cross-Chain Solutions</strong> - $15,000</p>
+                      <p class="card-text">Decentralized ETF protocol supporting NFTs, RWAs, and diverse asset types across multiple chains.</p>
+                      <a href="https://blog.chain.link/constellation-hackathon-winners/" target="_blank" class="btn btn-primary btn-sm">View Announcement</a>
                       <span> </span>
-                      <a href="https://github.com/GaetanoMondelli/XRPLEDGER-XTF" target="_blank" class="btn btn-info">View Code</a>
+                      <a href="https://www.xtflabs.com" target="_blank" class="btn btn-info btn-sm">Visit XTF Labs</a>
                     </div>
                   </div>
 
-                  <div class="card border-success mb-4">
+                  <div class="card border-success mb-3">
                     <div class="card-body">
-                      <h4 class="card-title">🥇 Gnosis HASHI Bridge Hack</h4>
-                      <p class="card-text"><strong>1st Place</strong> - ETHGlobal 2024</p>
-                      <p class="card-text">Cross-chain bridge security solution utilizing Gnosis HASHI protocol for secure multi-chain communication and asset transfers.</p>
-                      <a href="https://ethglobal.com/showcase/hashi-xtf-85rfn" target="_blank" class="btn btn-success">View Project</a>
+                      <h4 class="card-title">🥇 EasyA x Ripple/XRPL London 2024</h4>
+                      <p class="card-text"><strong>Winner</strong> - £7,000</p>
+                      <p class="card-text">XTF on XRPL ledger - innovative cross-chain ETF implementation.</p>
+                      <a href="https://www.linkedin.com/posts/easya_xrp-xrp-xrp-activity-7185968249539338240-hPnS" target="_blank" class="btn btn-success btn-sm">View Post</a>
                     </div>
                   </div>
 
-                  <div class="card border-warning mb-4">
+                  <div class="card border-warning mb-3">
                     <div class="card-body">
-                      <h4 class="card-title">🥇 Degencess NFT Game</h4>
-                      <p class="card-text"><strong>1st Place</strong> - ImmutableX x EasyA Hackathon 2023</p>
-                      <p class="card-text">Chess-inspired NFT game built on ImmutableX with innovative gameplay mechanics and tokenized game pieces.</p>
+                      <h4 class="card-title">🥇 Flare ETH Oxford 2024</h4>
+                      <p class="card-text"><strong>1st Place Most Innovative dApps</strong> - $2,500</p>
+                      <p class="card-text">X DataAggregator - oracle data aggregation system using Flare network.</p>
+                      <a href="https://flare.network/news/flare-hackathon-highlights-eth-oxford" target="_blank" class="btn btn-warning btn-sm">View Highlights</a>
                     </div>
                   </div>
 
-                  <div class="card border-info mb-4">
+                  <div class="card border-info mb-3">
                     <div class="card-body">
-                      <h4 class="card-title">🥇 ZK Anti-Collusion Aggregator</h4>
-                      <p class="card-text"><strong>1st Place</strong> - Chainlink / ETHGlobal (Uniswap, Flare, Chronicles tracks 2024-2025)</p>
-                      <p class="card-text">Zero-knowledge proof aggregator for anti-collusion mechanisms in decentralized voting and governance systems.</p>
+                      <h4 class="card-title">🏅 Chainlink Block Magic 2024</h4>
+                      <p class="card-text"><strong>Top-Quality Prize</strong></p>
+                      <p class="card-text">Advanced blockchain integration showcasing Chainlink's oracle capabilities.</p>
+                      <a href="https://blog.chain.link/block-magic-winners/" target="_blank" class="btn btn-info btn-sm">View Winners</a>
                     </div>
                   </div>
 
-                  <div class="card border-secondary mb-4">
+                  <div class="card border-primary mb-3">
                     <div class="card-body">
-                      <h4 class="card-title">🥈 ZK MACI Anti-Collusion Voting</h4>
-                      <p class="card-text"><strong>2nd Place</strong> - Ethereum Foundation ZK Track 2024</p>
-                      <p class="card-text">Scaffold-eth template for MACI (Minimal Anti-Collusion Infrastructure) enabling secure e-voting using Zero Knowledge Proofs.</p>
-                      <a href="https://ethglobal.com/showcase/skaffoldmaci-zkosios-2no6q" target="_blank" class="btn btn-secondary">View Project</a>
+                      <h4 class="card-title">🥇 Encode Club Hackathon 2024</h4>
+                      <p class="card-text"><strong>Winner</strong></p>
+                      <p class="card-text">ZK-focused blockchain solution demonstrating advanced cryptographic techniques.</p>
+                      <a href="https://x.com/encodeclub/status/1788939096577991129" target="_blank" class="btn btn-primary btn-sm">View Tweet</a>
                     </div>
                   </div>
 
-                  <div class="card border-dark mb-4">
+                  <div class="card border-success mb-3">
                     <div class="card-body">
-                      <h4 class="card-title">🏊 NFTiffany - Pool Winner</h4>
-                      <p class="card-text"><strong>Pool Winner</strong> - Polygon Hackathon</p>
-                      <p class="card-text">NFT ring creator with escrows for gems. Transform tokens into sparkling gems in unique NFT rings with smart contract-based escrow mechanisms.</p>
-                      <a href="https://github.com/GaetanoMondelli/NFTfany-PolygonxEasyAHackathon" target="_blank" class="btn btn-dark">View Code</a>
+                      <h4 class="card-title">🏆 ETHGlobal - Hashi XTF</h4>
+                      <p class="card-text"><strong>Gnosis Prize Winner</strong> - 2024</p>
+                      <p class="card-text">Cross-chain bridge security solution utilizing Gnosis HASHI protocol for secure multi-chain communication.</p>
+                      <a href="https://ethglobal.com/showcase/hashi-xtf-85rfn" target="_blank" class="btn btn-success btn-sm">View Project</a>
+                    </div>
+                  </div>
+
+                  <div class="card border-warning mb-3">
+                    <div class="card-body">
+                      <h4 class="card-title">🥇 Flare - X DataAggregator</h4>
+                      <p class="card-text"><strong>1st Place Most Innovative Application</strong> - 2024</p>
+                      <p class="card-text">Decentralized oracle data aggregation with multiple integrations.</p>
+                      <a href="https://ethglobal.com/showcase/x-dataaggregator-dji5w" target="_blank" class="btn btn-warning btn-sm">View Project</a>
+                    </div>
+                  </div>
+
+                  <div class="card border-secondary mb-3">
+                    <div class="card-body">
+                      <h4 class="card-title">🥈 Chronicle Protocol 2024</h4>
+                      <p class="card-text"><strong>2nd Place Innovation Track</strong></p>
+                      <p class="card-text">X DataAggregator - innovative oracle integration with Chronicle Protocol.</p>
+                      <a href="https://ethglobal.com/showcase/x-dataaggregator-dji5w" target="_blank" class="btn btn-secondary btn-sm">View Project</a>
+                    </div>
+                  </div>
+
+                  <div class="card border-info mb-3">
+                    <div class="card-body">
+                      <h4 class="card-title">🥈 Uniswap Foundation 2024</h4>
+                      <p class="card-text"><strong>2nd Place Integrations</strong></p>
+                      <p class="card-text">X DataAggregator - DeFi integration with Uniswap protocol.</p>
+                      <a href="https://ethglobal.com/showcase/x-dataaggregator-dji5w" target="_blank" class="btn btn-info btn-sm">View Project</a>
+                    </div>
+                  </div>
+
+                  <div class="card border-dark mb-3">
+                    <div class="card-body">
+                      <h4 class="card-title">🥇 ImmutableX x EasyA 2023 - Degencess</h4>
+                      <p class="card-text"><strong>1st Place</strong></p>
+                      <p class="card-text">Chess-inspired NFT game with innovative gameplay mechanics and tokenized pieces.</p>
+                    </div>
+                  </div>
+
+                  <div class="card border-secondary mb-3">
+                    <div class="card-body">
+                      <h4 class="card-title">🥈 Ethereum Foundation - ZK MACI</h4>
+                      <p class="card-text"><strong>2nd Place ZK Track</strong> - 2024</p>
+                      <p class="card-text">Scaffold-eth template for MACI enabling anti-collusion e-voting with Zero Knowledge Proofs.</p>
+                      <a href="https://ethglobal.com/showcase/skaffoldmaci-zkosios-2no6q" target="_blank" class="btn btn-secondary btn-sm">View Project</a>
+                    </div>
+                  </div>
+
+                  <div class="card border-primary mb-3">
+                    <div class="card-body">
+                      <h4 class="card-title">🏊 Polygon Hackathon - NFTiffany</h4>
+                      <p class="card-text"><strong>Pool Winner</strong></p>
+                      <p class="card-text">NFT ring creator with escrows - transform tokens into sparkling gems in unique NFT rings.</p>
+                      <a href="https://github.com/GaetanoMondelli/NFTfany-PolygonxEasyAHackathon" target="_blank" class="btn btn-primary btn-sm">View Code</a>
                     </div>
                   </div>
 
