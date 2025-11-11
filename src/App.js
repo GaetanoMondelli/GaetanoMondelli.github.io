@@ -483,6 +483,77 @@ class App extends React.Component {
             </div>
           </Route>
 
+          <Route exact path="/awards" component>
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <h1>Awards & Hackathon Wins</h1>
+                  <p class="lead">10x first place winner across major blockchain hackathons</p>
+                  <hr />
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-12">
+                  <div class="card border-primary mb-4">
+                    <div class="card-body">
+                      <h4 class="card-title">🏆 XTF Protocol - Decentralized ETF System</h4>
+                      <p class="card-text"><strong>1st Place</strong> - Multiple Hackathons (Chainlink Constellation 2023, Ripple, Tezos)</p>
+                      <p class="card-text">Multichain decentralized protocol for ETF-like solutions supporting NFTs, RWAs, and diverse asset types. Won the Chainlink interoperability track with innovative cross-chain architecture.</p>
+                      <a href="https://www.xtflabs.com" target="_blank" class="btn btn-primary">Visit XTF Labs</a>
+                      <span> </span>
+                      <a href="https://github.com/GaetanoMondelli/XRPLEDGER-XTF" target="_blank" class="btn btn-info">View Code</a>
+                    </div>
+                  </div>
+
+                  <div class="card border-success mb-4">
+                    <div class="card-body">
+                      <h4 class="card-title">🥇 Gnosis HASHI Bridge Hack</h4>
+                      <p class="card-text"><strong>1st Place</strong> - ETHGlobal 2024</p>
+                      <p class="card-text">Cross-chain bridge security solution utilizing Gnosis HASHI protocol for secure multi-chain communication and asset transfers.</p>
+                      <a href="https://ethglobal.com/showcase/hashi-xtf-85rfn" target="_blank" class="btn btn-success">View Project</a>
+                    </div>
+                  </div>
+
+                  <div class="card border-warning mb-4">
+                    <div class="card-body">
+                      <h4 class="card-title">🥇 Degencess NFT Game</h4>
+                      <p class="card-text"><strong>1st Place</strong> - ImmutableX x EasyA Hackathon 2023</p>
+                      <p class="card-text">Chess-inspired NFT game built on ImmutableX with innovative gameplay mechanics and tokenized game pieces.</p>
+                    </div>
+                  </div>
+
+                  <div class="card border-info mb-4">
+                    <div class="card-body">
+                      <h4 class="card-title">🥇 ZK Anti-Collusion Aggregator</h4>
+                      <p class="card-text"><strong>1st Place</strong> - Chainlink / ETHGlobal (Uniswap, Flare, Chronicles tracks 2024-2025)</p>
+                      <p class="card-text">Zero-knowledge proof aggregator for anti-collusion mechanisms in decentralized voting and governance systems.</p>
+                    </div>
+                  </div>
+
+                  <div class="card border-secondary mb-4">
+                    <div class="card-body">
+                      <h4 class="card-title">🥈 ZK MACI Anti-Collusion Voting</h4>
+                      <p class="card-text"><strong>2nd Place</strong> - Ethereum Foundation ZK Track 2024</p>
+                      <p class="card-text">Scaffold-eth template for MACI (Minimal Anti-Collusion Infrastructure) enabling secure e-voting using Zero Knowledge Proofs.</p>
+                      <a href="https://ethglobal.com/showcase/skaffoldmaci-zkosios-2no6q" target="_blank" class="btn btn-secondary">View Project</a>
+                    </div>
+                  </div>
+
+                  <div class="card border-dark mb-4">
+                    <div class="card-body">
+                      <h4 class="card-title">🏊 NFTiffany - Pool Winner</h4>
+                      <p class="card-text"><strong>Pool Winner</strong> - Polygon Hackathon</p>
+                      <p class="card-text">NFT ring creator with escrows for gems. Transform tokens into sparkling gems in unique NFT rings with smart contract-based escrow mechanisms.</p>
+                      <a href="https://github.com/GaetanoMondelli/NFTfany-PolygonxEasyAHackathon" target="_blank" class="btn btn-dark">View Code</a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </Route>
+
           <Route exact path="/cert" component>
 
 

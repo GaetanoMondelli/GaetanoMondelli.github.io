@@ -37,6 +37,9 @@ export default class Navbar extends React.Component {
                     <a class="nav-link" href="/#/articles">/articles</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="/#/awards">/awards</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="/#/cert">/cert</a>
                 </li>
                 {/* <li class="nav-item">
