@@ -1,7 +1,5 @@
-
 import React from 'react';
-import DemoBook from './DemoBook';
-import { Switch, Route, Router } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import ReactTooltip from 'react-tooltip';
 import Navbar from './Navbar';
 import ReactGoogleSlides from "react-google-slides";
@@ -10,16 +8,101 @@ import app from './images/poliapp.png'
 import intercom from './images/intercom.jpg'
 import github from './images/github.png'
 import linkedin from './images/linkedin.png'
-import clubhouse from './images/clubhouse.png'
 import over from './images/overl.png'
 import article1 from './images/article1.png'
+
+const projects = [
+  {
+    header: "Rowan Energy",
+    title: "Carbon Credit Tokenization",
+    style: "border-success",
+    text: "Leading blockchain and tokenization design for carbon credits. Built MRV-driven, UKAS-aligned systems tokenizing verified renewable energy data from TPM-signed IoT devices with zk-proof concepts for privacy."
+  },
+  {
+    header: "AIKON (ORE ID)",
+    title: "Decentralized Identity",
+    style: "border-info",
+    text: "Collaborated with W. Scott Stornetta (co-inventor of blockchain) on self-sovereign identity frameworks. Developed smart contracts for tokenized digital identity and access rights across EVM, EOS, and Algorand."
+  },
+  {
+    header: "DaChain",
+    title: "NFT Marketplace & Ticketing",
+    style: "border-warning",
+    text: "Led blockchain architecture for multi-chain NFT marketplace spanning sports, music, and art. Developed blockchain-based ticketing systems and metaverse stadium experiences. Backed by lastminute.com CEO and Leeds United F.C. owner."
+  },
+  {
+    header: "Rocket Lawyer",
+    title: "Legal Contracts & Stablecoins",
+    style: "border-danger",
+    text: "Architected smart contracts for legal document automation and escrow. Designed stablecoin-based payment infrastructure bridging legal services with blockchain. Integrated with Stripe, Circle, and compliance flows."
+  },
+  {
+    header: "XTF - Multiple Hackathon Winner 2023",
+    title: "Web3 ETF Reimagined",
+    style: "border-primary",
+    text: "Won Chainlink Constellation 2023 (interoperability track). Multichain decentralized protocol for ETF-like solutions supporting NFTs, RWAs, and diverse asset types. Utilizes secure price oracles and interoperability for transparent, diversified investment strategies.",
+    link: "https://xtflabs.com",
+    linkText: "View Project"
+  },
+  {
+    header: "ZK Bytecode Verifier - Encode 2024",
+    title: "Smart Contract Security",
+    style: "border-secondary",
+    text: "Encode ZK Bootcamp graduation project. Vulnerability checker and security proxy architecture using Noir. Analyzes deployed contract bytecode for vulnerabilities and requires security interface certification for audited contracts.",
+    link: "https://github.com/ksavul/zk-bootcamp-final-project",
+    linkText: "View Project"
+  },
+  {
+    header: "ZK Scaffold MACI - ETH London",
+    title: "Anti-Collusion Voting",
+    style: "border-secondary",
+    text: "Won Ethereum Foundation track for Best Use of MACI. Scaffold-eth template for MACI (Minimal Anti-Collusion Infrastructure) enabling secure, anti-collusion e-voting using Zero Knowledge Proofs.",
+    link: "https://ethglobal.com/showcase/skaffoldmaci-zkosios-2no6q",
+    linkText: "View Project"
+  },
+  {
+    header: "GODL - Polygon Winner 2020",
+    title: "NFT Jewelry Creator",
+    style: "border-secondary",
+    text: "Won Polygon Hackathon 2020. Transform tokens into sparkling gems in unique NFT rings. Create digital jewelry by combining assets, or melt down existing pieces to reclaim the underlying tokens.",
+    link: "https://github.com/GaetanoMondelli/NFTfany-PolygonxEasyAHackathon",
+    linkText: "View Project"
+  },
+  {
+    header: "Solitude",
+    title: "Solidity Framework",
+    style: "border-primary",
+    text: "Pythonic framework to deploy, interact, test and debug your Solidity contracts. It comes with a companion debugger",
+    link: "https://solitude-ethereum.xyz/",
+    linkText: "Visit the website",
+    link2: "https://marketplace.visualstudio.com/items?itemName=gmondelli.solitude-debug",
+    linkText2: "VSCODE extension"
+  },
+  {
+    header: "Grad-drone",
+    title: "Drone Hat",
+    style: "border-primary",
+    text: "GradDrone (Graduation Cap Drone) is a project to fly a Graduation wreath on a parrot drone over your head.",
+    link: "https://github.com/GaetanoMondelli/GradDrone",
+    linkText: "Visit the repo"
+  }
+];
 
 
 class App extends React.Component {
 
   state = {
     hideWarning: false,
-    colWidth: window.innerWidth
+    colWidth: window.innerWidth,
+    selectedProject: null
+  }
+
+  openModal = (project) => {
+    this.setState({ selectedProject: project });
+  }
+
+  closeModal = () => {
+    this.setState({ selectedProject: null });
   }
 
   readBook2021 = 35;
@@ -80,9 +163,7 @@ class App extends React.Component {
                   </div>
                   <br></br>
 
-                  <a href="https://www.xtflabs.com">
-                    <strong>Recent Achievements:</strong> 10x hackathon winner including Chainlink 2023 (XTF - Web3 ETF), Ethereum Foundation (ZK anti-collusion voting), Polygon 2020 (NFT composability). Completed Encode's ZK Bootcamp 2024.
-                  </a>
+                  <strong>Recent Achievements:</strong> 10x hackathon winner including Chainlink 2023 (XTF - Web3 ETF), Ethereum Foundation (ZK anti-collusion voting), Polygon 2020 (NFT composability). Completed Encode's ZK Bootcamp 2024.
                   <br></br>
                   <br></br>
                   <div class="col-md-8 offset-md-4">
@@ -178,155 +259,59 @@ class App extends React.Component {
               </div>
             </div>
             <div class="row">
-              <div class="col-12 col-sm-4">
-                <div class="card border-success mb-3" style={{ maxWidth: "20rem" }}>
-                  <div class="card-header">Rowan Energy</div>
-                  <div class="card-body">
-                    <h4 class="card-title">Carbon Credit Tokenization</h4>
-                    <p class="card-text text">Leading blockchain and tokenization design for carbon credits. Built MRV-driven, UKAS-aligned systems tokenizing verified renewable energy data from TPM-signed IoT devices with zk-proof concepts for privacy.</p>
+              {projects.map((project, index) => (
+                <div class="col-12 col-sm-4" key={index}>
+                  <div className={`card ${project.style} mb-3`} style={{ maxWidth: "20rem" }}>
+                    <div class="card-header">{project.header}</div>
+                    <div class="card-body">
+                      <h4 class="card-title">{project.title}</h4>
+                      <p class="card-text text">{project.text}</p>
+                      {project.link && (
+                        <button type="button" class="btn btn-primary" onClick={() => {
+                          window.open(project.link, '_blank');
+                        }}>{project.linkText}</button>
+                      )}
+                      {project.link2 && (
+                        <>
+                          <span> </span>
+                          <button type="button" class="btn btn-info" onClick={() => {
+                            window.open(project.link2, '_blank');
+                          }}>{project.linkText2}</button>
+                        </>
+                      )}
+                      <br></br><br></br>
+                      <button type="button" class="btn btn-secondary btn-sm" onClick={() => this.openModal(project)}>Read More</button>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-12 col-sm-4">
-                <div class="card border-info mb-3" style={{ maxWidth: "20rem" }}>
-                  <div class="card-header">AIKON (ORE ID)</div>
-                  <div class="card-body">
-                    <h4 class="card-title">Decentralized Identity</h4>
-                    <p class="card-text text">Developed smart contracts for tokenized digital identity and access rights across EVM, EOS, and Algorand. Collaborated with W. Scott Stornetta (co-inventor of blockchain) on self-sovereign identity frameworks.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-sm-4">
-                <div class="card border-warning mb-3" style={{ maxWidth: "20rem" }}>
-                  <div class="card-header">DaChain</div>
-                  <div class="card-body">
-                    <h4 class="card-title">NFT Marketplace & Ticketing</h4>
-                    <p class="card-text text">Led blockchain architecture for multi-chain NFT marketplace spanning sports, music, and art. Developed blockchain-based ticketing systems and metaverse stadium experiences. Backed by lastminute.com CEO and Leeds United F.C. owner.</p>
-                  </div>
-                </div>
-              </div>
+              ))}
             </div>
-            <div class="row">
-              <div class="col-12 col-sm-4">
-                <div class="card border-danger mb-3" style={{ maxWidth: "20rem" }}>
-                  <div class="card-header">Rocket Lawyer</div>
-                  <div class="card-body">
-                    <h4 class="card-title">Legal Contracts & Stablecoins</h4>
-                    <p class="card-text text">Architected smart contracts for legal document automation and escrow. Designed stablecoin-based payment infrastructure bridging legal services with blockchain. Integrated with Stripe, Circle, and compliance flows.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-sm-4">
-                <div class="card border-primary mb-3" style={{ maxWidth: "20rem" }}>
-                  <div class="card-header">XTF - Multiple Hackathon Winner 2023</div>
-                  <div class="card-body">
-                    <h4 class="card-title">Web3 ETF Reimagined</h4>
-                    <p class="card-text text">Won Chainlink Constellation 2023 (interoperability track). Multichain decentralized protocol for ETF-like solutions supporting NFTs, RWAs, and diverse asset types. Utilizes secure price oracles and interoperability for transparent, diversified investment strategies.</p>
-                    <button type="button" class="btn btn-primary" onClick={() => {
-                      window.open(
-                        'https://xtflabs.com',
-                        '_blank'
-                      );
-                    }}>View Project</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12 col-sm-4">
-                <div class="card border-secondary mb-3" style={{ maxWidth: "20rem" }}>
-                  <div class="card-header">ZK Bytecode Verifier - Encode 2024</div>
-                  <div class="card-body">
-                    <h4 class="card-title">Smart Contract Security</h4>
-                    <p class="card-text text">Encode ZK Bootcamp graduation project. Vulnerability checker and security proxy architecture using Noir. Analyzes deployed contract bytecode for vulnerabilities and requires security interface certification for audited contracts.</p>
-                    <button type="button" class="btn btn-primary" onClick={() => {
-                      window.open(
-                        'https://github.com/ksavul/zk-bootcamp-final-project',
-                        '_blank'
-                      );
-                    }}>View Project</button>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-sm-4">
-                <div class="card border-secondary mb-3" style={{ maxWidth: "20rem" }}>
-                  <div class="card-header">ZK Scaffold MACI - ETH London</div>
-                  <div class="card-body">
-                    <h4 class="card-title">Anti-Collusion Voting</h4>
-                    <p class="card-text text">Won Ethereum Foundation track for Best Use of MACI. Scaffold-eth template for MACI (Minimal Anti-Collusion Infrastructure) enabling secure, anti-collusion e-voting using Zero Knowledge Proofs.</p>
-                    <button type="button" class="btn btn-primary" onClick={() => {
-                      window.open(
-                        'https://ethglobal.com/showcase/skaffoldmaci-zkosios-2no6q',
-                        '_blank'
-                      );
-                    }}>View Project</button>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-sm-4">
-                <div class="card border-secondary mb-3" style={{ maxWidth: "20rem" }}>
-                  <div class="card-header">GODL - Polygon Winner 2020</div>
-                  <div class="card-body">
-                    <h4 class="card-title">NFT Jewelry Creator</h4>
-                    <p class="card-text text">Won Polygon Hackathon 2020. Transform tokens into sparkling gems in unique NFT rings. Create digital jewelry by combining assets, or melt down existing pieces to reclaim the underlying tokens.</p>
-                    <button type="button" class="btn btn-primary" onClick={() => {
-                      window.open(
-                        'https://github.com/GaetanoMondelli/NFTfany-PolygonxEasyAHackathon',
-                        '_blank'
-                      );
-                    }}>View Project</button>
-                  </div>
-                </div>
-              </div>
 
-
-              <div class="col-12 col-sm-4">
-                <div class="card border-primary mb-3" style={{ maxWidth: "20rem" }}>
-                  <div class="card-header">Solitude</div>
-                  <div class="card-body">
-                    <h4 class="card-title">Solidity Framework</h4>
-                    <p class="card-text text" >Pythonic framework to deploy, interact, test and debug your Solidity contracts. It comes with a companion debugger</p>
-                    <div>
-
-                      <button type="button" class="btn btn-primary" onClick={() => {
-                        window.open(
-                          'https://solitude-ethereum.xyz/',
-                          '_blank'
-                        );
-                      }}>Visit the website</button>
-                      <span> </span>
-                      <button type="button" class="btn btn-info" onClick={() => {
-                        window.open(
-                          'https://marketplace.visualstudio.com/items?itemName=gmondelli.solitude-debug',
-                          '_blank'
-                        );
-                      }}>VSCODE extension</button>
-
-
-
+            {this.state.selectedProject && (
+              <div className="modal" tabIndex="-1" role="dialog" style={{ display: 'block', backgroundColor: 'rgba(0,0,0,0.5)' }}>
+                <div className="modal-dialog" role="document">
+                  <div className="modal-content">
+                    <div className="modal-header">
+                      <h5 className="modal-title">{this.state.selectedProject.header}</h5>
+                      <button type="button" className="close" onClick={this.closeModal} aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div className="modal-body">
+                      <h4>{this.state.selectedProject.title}</h4>
+                      <p>{this.state.selectedProject.text}</p>
+                    </div>
+                    <div className="modal-footer">
+                      {this.state.selectedProject.link && (
+                        <button type="button" className="btn btn-primary" onClick={() => window.open(this.state.selectedProject.link, '_blank')}>{this.state.selectedProject.linkText}</button>
+                      )}
+                      <button type="button" className="btn btn-secondary" onClick={this.closeModal}>Close</button>
                     </div>
                   </div>
                 </div>
               </div>
+            )}
 
-
-              <div class="col-12 col-sm-4">
-                <div class="card border-primary mb-3" style={{ maxWidth: "20rem" }}>
-                  <div class="card-header">Grad-drone</div>
-                  <div class="card-body">
-                    <h4 class="card-title">Drone Hat</h4>
-                    <p class="card-text text" >GradDrone (Graduation Cap Drone) is a project to fly a Graduation wreath on a parrot drone over your head.</p>
-                    <button type="button" class="btn btn-primary" onClick={() => {
-                      window.open(
-                        'https://github.com/GaetanoMondelli/GradDrone',
-                        '_blank'
-                      );
-                    }}>Visit the repo</button>
-                  </div>
-                </div>
-              </div>
-
-            </div>
             <hr></hr>
             <br></br>
 
@@ -455,7 +440,7 @@ class App extends React.Component {
                     <h2>Your Crypto Dollars Are Just IOUs (And the Feds Just Admitted It)</h2>
 
                     <div style={{ textAlign: "center", margin: "20px 0" }}>
-                      <img src={article1} style={{ maxWidth: "50%", height: "auto", borderRadius: "8px" }} alt="Stablecoins and GENIUS Act" />
+                      <img src={article1} style={{ maxWidth: "100%", height: "auto", borderRadius: "8px" }} alt="Stablecoins and GENIUS Act" />
                     </div>
 
                     <p>Last month, the U.S. signed the GENIUS Act into law, the first major federal regulation of stablecoins. The crypto industry celebrated it as "regulatory clarity." Banks called it "a framework for innovation." Nobody mentioned the quiet part out loud: Washington just confirmed that stablecoins aren't money. They're debt.</p>
